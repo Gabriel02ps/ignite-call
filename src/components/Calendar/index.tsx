@@ -3,6 +3,7 @@ import {
   CalendarActions,
   CalendarBody,
   CalendarContainer,
+  CalendarDay,
   CalendarHeader,
   CalendarTitle,
 } from './styles'
@@ -38,9 +39,15 @@ export function Calendar() {
         </thead>
         <tbody>
           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>
+              <CalendarDay>1</CalendarDay>
+            </td>
+            <td>
+              <CalendarDay disabled>2</CalendarDay>
+            </td>
+            <td>
+              <CalendarDay>3</CalendarDay>
+            </td>
             <td></td>
             <td></td>
             <td></td>
